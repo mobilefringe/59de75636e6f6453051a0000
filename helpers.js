@@ -379,8 +379,8 @@ function getAssetURL(id){
 }
 
 function halloweenBats(){
-    (function ($) {
-	"use strict";
+//     (function ($) {
+// 	"use strict";
 
 	$.fn.halloweenBats = function (options) {
 		var Bat,
@@ -527,7 +527,7 @@ function halloweenBats(){
 			innerHeight = $body.innerHeight();
 		});
 	};
-}(jQuery));
-$.fn.halloweenBats({});
-}
+// }(jQuery));
+// $.fn.halloweenBats({});
+
 }

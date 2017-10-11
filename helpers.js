@@ -382,7 +382,7 @@ function halloweenBats(){
 //     (function ($) {
 // 	"use strict";
 
-	$.fn.halloweenBats = function (options) {
+// 	$.fn.halloweenBats = function (options) {
 		var Bat,
 			bats = [],
 			$body= $('body'),
@@ -526,7 +526,7 @@ function halloweenBats(){
 			innerWidth = $body.innerWidth();
 			innerHeight = $body.innerHeight();
 		});
-	};
+// 	};
 // }(jQuery));
 // $.fn.halloweenBats({});
 

@@ -42,7 +42,7 @@ function init(e){
         window.location = $(this).val();
     });
     
-    halloweenBats();
+    $.fn.halloweenBats({});
 }
 
 function show_content(){
@@ -378,11 +378,11 @@ function getAssetURL(id){
     return store_front_image_url;
 }
 
-function halloweenBats(){
+// function halloweenBats(){
 //     (function ($) {
 // 	"use strict";
 
-// 	$.fn.halloweenBats = function (options) {
+	$.fn.halloweenBats = function (options) {
 		var Bat,
 			bats = [],
 			$body= $('body'),
@@ -526,8 +526,8 @@ function halloweenBats(){
 			innerWidth = $body.innerWidth();
 			innerHeight = $body.innerHeight();
 		});
-// 	};
+	};
 // }(jQuery));
 // $.fn.halloweenBats({});
 
-}
+// }

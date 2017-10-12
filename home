@@ -24,8 +24,10 @@
                     <img src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1463434698000/tweet.png" class="" alt="tweet">
                     <div>
                         <a href="#" id="latest_tweet_link" target="_blank"><p id="latest_tweet" class="latest_post"></p></a>
-                        <p>
+                        <h1>
                         <a class="social_link_blank">Happy Halloween from everyone at Twinpines Mall</a><br/>
+                        </h1>
+                        <p>
                             <a class="social_link_blank" href="https://twitter.com/Billings_Bridge" target="_blank">@twinpinesmall</a><br/>
                             <span id="latest_tweet_date"></span>
                         </p>

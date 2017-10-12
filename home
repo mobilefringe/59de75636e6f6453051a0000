@@ -1,4 +1,4 @@
-
+<link rel="stylesheet" href="animate.min.css">
 <div class="popup_home hidden_now">
     <a href="#" target="_blank">
         <img src="#" alt="pop up" />

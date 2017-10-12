@@ -200,6 +200,7 @@ a {
     }
     &:hover:before{
         opacity: 1;
+        margin-top:20px;
         -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
     }

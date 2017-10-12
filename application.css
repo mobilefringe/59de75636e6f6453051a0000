@@ -433,7 +433,7 @@ h4 {
     margin-bottom: 20px;
     padding: 0 40px;
     background: #fff;
-    font-family:'Open Sans Condensed';
+    font-family:'Lato';
     h5, a {
         font-size: 24px;
         color: $primary;
@@ -553,7 +553,7 @@ h4 {
         font-size: 24px;
         color: #fff;
         letter-spacing: 0.5px;
-        font-family: 'Open Sans Condensed';
+        font-family: 'Lato';
         text-transform: uppercase;
     }
 }
@@ -2243,7 +2243,7 @@ gallery:after{
     .newsletter_desc{
         margin:0;
         font-size:16px;
-        font-family: 'Open Sans Condensed';
+        font-family: 'Lato';
         text-transform: uppercase;
         span{
             margin:0 5px;

@@ -641,7 +641,7 @@ h4 {
         -webkit-transition: 500ms;
     }
     .hoverer:hover{
-        transform: scale(1.1);
+        transform: scale(2);
         transition: 500ms;
         -webkit-transition: 500ms;
     }

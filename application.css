@@ -1328,7 +1328,7 @@ h7 {
 }
 
 .holiday_hours_home{
-    font-size: 12px;
+    font-size: 9px;
     color: $primary;
     font-family: 'Lato';
     font-weight: 400;
@@ -1937,10 +1937,10 @@ gallery:after{
     }
     
     .newsletter_desc{
-        font-family: 'Open Sans Condensed';
+        font-family: 'Lato'bold ;
         text-transform: uppercase;
         margin:0;
-        font-size:16px;
+        font-size:24px;
         line-height: 25px;
         span{
             margin-right:5px;

@@ -266,7 +266,6 @@ h1  {
 }
 
 h2  {
-    margin-top: 50px;
     font-family: 'Lato', bold;
     font-weight: 400;
     color: $secondary;

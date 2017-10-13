@@ -266,6 +266,7 @@ h1  {
 }
 
 h2  {
+    padding-top: 40px;
     font-family: 'Lato', bold;
     font-weight: 400;
     color: $secondary;

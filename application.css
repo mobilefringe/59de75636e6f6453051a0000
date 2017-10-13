@@ -268,7 +268,8 @@ h1  {
 h2  {
     padding-top: 60px;
     font-family: 'Lato', bold;
-    font-weight: 400;
+   font-size: 30px;
+    font-weight: 800;
     color: $secondary;
 }
 h4 {

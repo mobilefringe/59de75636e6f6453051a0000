@@ -660,7 +660,7 @@ h7 {
         -webkit-transition: 500ms;
     }
     .hoverer:hover{
-        transform: scale(0.5);
+        transform: scale(1.2);
         transition: 500ms;
         -webkit-transition: 500ms;
     }

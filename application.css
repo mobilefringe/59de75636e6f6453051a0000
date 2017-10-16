@@ -655,7 +655,7 @@ h7 {
         float:left;
     }
     img{
-        transform: scale(0.5);
+        transform: scale(1);
         transition: 500ms;
         -webkit-transition: 500ms;
     }

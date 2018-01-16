@@ -17,6 +17,22 @@
                 <div id="feature_0" class="position_relative"></div>
                 <div id="feature_1" class="position_relative"></div>
             </div>
+            <head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <nav class="side-menu">
+    <ul>
+      <li><a href="#">What to do?<span><i class="fa fa-map-marker"></i></span></a></li>
+      <li><a href="#">Where to go?<span><i class="fa fa-compass"></i></span></a></li>
+      <li><a href="#">Services<span><i class="fa fa-bicycle"></i></span></a></li>
+      <li><a href="#">Accomodation<span><i class="fa fa-bed"></i></span></a></li>
+      <li><a href="#">Free Time<span><i class="fa fa-book"></i></span></a></li>
+      <li><a href="#">Food&Drnk<span><i class="fa fa-beer"></i></span></a></li>
+    </ul>
+  </nav>
+</body>
             
             <div class="feature_item">
                 <a class="show_phone" href="https://twitter.com/Billings_Bridge" target="_blank"><img src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/jpeg/1464116338000/hsc_twitter.jpg"  alt=""></a>

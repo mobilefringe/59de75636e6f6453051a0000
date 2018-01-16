@@ -5,15 +5,11 @@
     </a>
     <i class="fa fa-remove close_popup"></i>
 </div>
-<div class="sub-main">
-      <button class="button-two"><span>Hover Me</span></button>
-    </div>
 <div class="hero_banner text-center">
     <h3 class="animated bounce">Where Shopping Happens</h3>
     
     <a class="animated_btn" href="/stores">Visit Our Stores</a>
 </div>
-
 <div class="content_container main_container">
     <div class="feature_items_box mobile_padding">
         <div class="feature_row">
@@ -22,7 +18,9 @@
                 <div id="feature_1" class="position_relative"></div>
             </div>
             
-             
+             <div class="sub-main">
+      <button class="button-two"><span>Hover Me</span></button>
+    </div>
     
             <div class="feature_item">
                 <a class="show_phone" href="https://twitter.com/Billings_Bridge" target="_blank"><img src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/jpeg/1464116338000/hsc_twitter.jpg"  alt=""></a>

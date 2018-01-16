@@ -5,14 +5,15 @@
     </a>
     <i class="fa fa-remove close_popup"></i>
 </div>
+<div class="sub-main">
+      <button class="button-two"><span>Hover Me</span></button>
+    </div>
 <div class="hero_banner text-center">
     <h3 class="animated bounce">Where Shopping Happens</h3>
     
     <a class="animated_btn" href="/stores">Visit Our Stores</a>
 </div>
-<div class="sub-main">
-      <button class="button-two"><span>Hover Me</span></button>
-    </div>
+
 <div class="content_container main_container">
     <div class="feature_items_box mobile_padding">
         <div class="feature_row">

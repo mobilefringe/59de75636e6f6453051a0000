@@ -42,7 +42,8 @@ function init(e){
         window.location = $(this).val();
     });
     
-    $.fn.halloweenBats({});
+    // $.fn.halloweenBats({});
+    HeartsBackground.initialize();
 }
 
 function show_content(){

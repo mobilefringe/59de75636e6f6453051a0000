@@ -11,6 +11,7 @@
     <a class="animated_btn" href="/stores">Visit Our Stores</a>
 </div>
 <div class="content_container main_container">
+    <canvas id="canvas"></canvas>
     <div class="feature_items_box mobile_padding">
         <div class="feature_row">
             <div class="feature_item">
@@ -24,7 +25,7 @@
             <!--<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">-->
             <!--<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">-->
 
-            <canvas id="canvas"></canvas>
+            
             <div class="feature_item">
                 <a class="show_phone" href="https://twitter.com/Billings_Bridge" target="_blank"><img src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/jpeg/1464116338000/hsc_twitter.jpg"  alt=""></a>
                 <div class="social_box hidden_phone text-center" d="social_twitter">

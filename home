@@ -11,7 +11,7 @@
     <a class="animated_btn" href="/stores">Visit Our Stores</a>
 </div>
 <div class="content_container main_container">
-    <canvas id="canvas"></canvas>
+    
     <div class="feature_items_box mobile_padding">
         <div class="feature_row">
             <div class="feature_item">

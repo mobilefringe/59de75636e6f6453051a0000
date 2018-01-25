@@ -525,63 +525,88 @@ $.fn.halloweenBats = function (options) {
 	});
 };
 
-var HeartsBackground = {
-  heartHeight: 60,
-  heartWidth: 64,
-  hearts: [],
-  heartImage: 'http://i58.tinypic.com/ntnw5.png',
-  maxHearts: 8,
-  minScale: 0.4,
-  draw: function() {
-    this.setCanvasSize();
-    this.ctx.clearRect(0, 0, this.w, this.h);
-    for (var i = 0; i < this.hearts.length; i++) {
-      var heart = this.hearts[i];
-      heart.image = new Image();
-      heart.image.style.height = heart.height;
-      heart.image.src = this.heartImage;
-      this.ctx.globalAlpha = heart.opacity;
-      this.ctx.drawImage (heart.image, heart.x, heart.y, heart.width, heart.height);
-    }
-    this.move();
-  },
-  move: function() {
-    for(var b = 0; b < this.hearts.length; b++) {
-      var heart = this.hearts[b];
-      heart.y += heart.ys;
-      if(heart.y > this.h) {
-        heart.x = Math.random() * this.w;
-        heart.y = -1 * this.heartHeight;
-      }
-    }
-  },
-  setCanvasSize: function() {
-    this.canvas.width = window.innerWidth;
-    this.canvas.height = window.innerHeight;
-    this.w = this.canvas.width;
-    this.h = this.canvas.height;
-  },
-  initialize: function() {
-    this.canvas = $('#canvas')[0];
+// var HeartsBackground = {
+//   heartHeight: 60,
+//   heartWidth: 64,
+//   hearts: [],
+//   heartImage: 'http://i58.tinypic.com/ntnw5.png',
+//   maxHearts: 8,
+//   minScale: 0.4,
+//   draw: function() {
+//     this.setCanvasSize();
+//     this.ctx.clearRect(0, 0, this.w, this.h);
+//     for (var i = 0; i < this.hearts.length; i++) {
+//       var heart = this.hearts[i];
+//       heart.image = new Image();
+//       heart.image.style.height = heart.height;
+//       heart.image.src = this.heartImage;
+//       this.ctx.globalAlpha = heart.opacity;
+//       this.ctx.drawImage (heart.image, heart.x, heart.y, heart.width, heart.height);
+//     }
+//     this.move();
+//   },
+//   move: function() {
+//     for(var b = 0; b < this.hearts.length; b++) {
+//       var heart = this.hearts[b];
+//       heart.y += heart.ys;
+//       if(heart.y > this.h) {
+//         heart.x = Math.random() * this.w;
+//         heart.y = -1 * this.heartHeight;
+//       }
+//     }
+//   },
+//   setCanvasSize: function() {
+//     this.canvas.width = window.innerWidth;
+//     this.canvas.height = window.innerHeight;
+//     this.w = this.canvas.width;
+//     this.h = this.canvas.height;
+//   },
+//   initialize: function() {
+//     this.canvas = $('#canvas')[0];
 
-    if(!this.canvas.getContext)
-      return;
+//     if(!this.canvas.getContext)
+//       return;
 
-    this.setCanvasSize();
-    this.ctx = this.canvas.getContext('2d');
+//     this.setCanvasSize();
+//     this.ctx = this.canvas.getContext('2d');
 
-    for(var a = 0; a < this.maxHearts; a++) {
-      var scale = (Math.random() * (1 - this.minScale)) + this.minScale;
-      this.hearts.push({
-        x: Math.random() * this.w,
-        y: Math.random() * this.h,
-        ys: Math.random() + 1,
-        height: scale * this.heartHeight,
-        width: scale * this.heartWidth,
-        opacity: scale
-      });
-    }
+//     for(var a = 0; a < this.maxHearts; a++) {
+//       var scale = (Math.random() * (1 - this.minScale)) + this.minScale;
+//       this.hearts.push({
+//         x: Math.random() * this.w,
+//         y: Math.random() * this.h,
+//         ys: Math.random() + 1,
+//         height: scale * this.heartHeight,
+//         width: scale * this.heartWidth,
+//         opacity: scale
+//       });
+//     }
 
-    setInterval($.proxy(this.draw, this), 30);
-  }
-};
+//     setInterval($.proxy(this.draw, this), 30);
+//   }
+// };
+// function hearts () {
+//     $( "#header-plugin" ).load( "https://vivinantony.github.io/header-plugin/", function() {
+// 	$("a.back-to-link").attr("href", "http://blog.thelittletechie.com/2015/03/love-heart-animation-using-css3.html#tlt")  
+// });
+
+// var love = setInterval(function() {
+//     var r_num = Math.floor(Math.random() * 40) + 1;
+//     var r_size = Math.floor(Math.random() * 65) + 10;
+//     var r_left = Math.floor(Math.random() * 100) + 1;
+//     var r_bg = Math.floor(Math.random() * 25) + 100;
+//     var r_time = Math.floor(Math.random() * 5) + 5;
+
+//     $('.bg_heart').append("<div class='heart' style='width:" + r_size + "px;height:" + r_size + "px;left:" + r_left + "%;background:rgba(255," + (r_bg - 25) + "," + r_bg + ",1);-webkit-animation:love " + r_time + "s ease;-moz-animation:love " + r_time + "s ease;-ms-animation:love " + r_time + "s ease;animation:love " + r_time + "s ease'></div>");
+
+//     $('.bg_heart').append("<div class='heart' style='width:" + (r_size - 10) + "px;height:" + (r_size - 10) + "px;left:" + (r_left + r_num) + "%;background:rgba(255," + (r_bg - 25) + "," + (r_bg + 25) + ",1);-webkit-animation:love " + (r_time + 5) + "s ease;-moz-animation:love " + (r_time + 5) + "s ease;-ms-animation:love " + (r_time + 5) + "s ease;animation:love " + (r_time + 5) + "s ease'></div>");
+
+//     $('.heart').each(function() {
+//         var top = $(this).css("top").replace(/[^-\d\.]/g, '');
+//         var width = $(this).css("width").replace(/[^-\d\.]/g, '');
+//         if (top <= -100 || width >= 150) {
+//             $(this).detach();
+//         }
+//     });
+// }, 500);
+// }

@@ -66,6 +66,7 @@ var love = setInterval(function() {
         }
     });
 }, 500);
+$(".bg_heart")
 }
 
 function show_content(){

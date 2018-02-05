@@ -22,7 +22,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Raleway:400,800" rel="stylesheet">
     <title>{{meta_title}}</title>
-    
+       <link rel="icon" type="image/png" href="//codecloud.cdn.speedyrails.net/sites/59de75636e6f6453051a0000/image/vnd.microsoft.icon/1517849220000/favicon.ico">
     <!--CSS-->
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link href="//cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.4/flexslider.min.css" rel="stylesheet">

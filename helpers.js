@@ -67,7 +67,7 @@ var love = setInterval(function() {
     });
 }, 500);
     $(".bg_heart").css("height" , document.innerHeight +"px");
-    console.log($(".bg_heart"));
+    console.log($(".bg_heart"),document );
 }
 
 function show_content(){
